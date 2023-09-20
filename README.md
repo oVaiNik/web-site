@@ -3,3 +3,4 @@
 - CSS
 - DataBase
 - PhpMyAdmin
+- Для просмотра сайта надо скачать openserver и импортировать sait.sql в базу данных.
