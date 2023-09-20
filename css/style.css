@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  font-family: "Gunny Rewritten", sans-serif;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.form-action{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 3em;
+  padding: 1em;
+  box-shadow:
+ -20px 20px 0 -17px #fff,
+ 20px -20px 0 -17px #fff,
+ 20px 20px 0 -20px #000000,
+ 0 0 0 2px #000000;
+}
+
+.form-action .field{
+  margin: 10px 0;
+  padding: 10px;
+  border: unset;
+  border-bottom: 2px solid #e3e3e3e3;
+  outline: none;
+}
+
+.form-action .btn{
+  padding: 10px;
+  background: #e3e3e3e3;
+  border: unset;
+  cursor: pointer;
+}
+
+p{
+  margin: 10px 0;
+}
+
+.form-action .link{
+  color: #778797;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.msg{
+  border: 2px solid #b3b1b1;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.logout{
+  height: auto;
+  width: auto;
+  padding: 10px 10px;
+}
+
+.logout-btn{
+  display: block;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+.logout-btn span{
+  position: relative;
+  z-index: 2;
+}
+
+.logout-btn:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #000000;
+  transition: all .35s;
+}
+
+.logout-btn:hover{
+  color: #fff;
+}
+
+.logout-btn:hover:after{
+  width: 100%;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 3em;
+  padding: 1em;
+  box-shadow:
+ -20px 20px 0 -17px #fff,
+ 20px -20px 0 -17px #fff,
+ 20px 20px 0 -20px #000000,
+ 0 0 0 2px #000000;
+}
